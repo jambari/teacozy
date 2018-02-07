@@ -3,6 +3,7 @@ body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
+    text-align: center;
     background-color: black;
     opacity: 0.9;
 }
@@ -19,9 +20,10 @@ header {
     position: fixed;
     height: 69px;
     border-bottom: 1px solid seashell;
-    z-index: 1;
     align-items: center;
     width: 100%;
+    background-color: black;
+    margin-top: -0.5%;
 }
 
 .logo {
@@ -29,6 +31,7 @@ header {
     margin-left: 10px;
     align-items: center;
     flex-grow: 1;
+    opacity: 0.9;
 }
 
 .logo img {
@@ -44,5 +47,31 @@ nav {
 nav span {
     display: inline-block;
     padding: 20px 10px;
+}
+
+/*content */
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.column.one{
+    display: flex;
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    background-color: black;
+    width: 1200px;
 }
 
