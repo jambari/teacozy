@@ -24,7 +24,7 @@ header {
     align-items: center;
     width: 100%;
     background-color: black;
-    margin-top: -1%;
+    margin-top: -0.5%;
 }
 
 .logo {
@@ -58,12 +58,13 @@ nav span {
     justify-content: center
 }
 
-.one{
+.mission{
     display: flex;
     background-image: url("../images/img-mission-background.jpg");
     height: 700px;
     width: 1200px;
     align-items: center;
+    align-self: center;
 }
 
 .description {
@@ -73,12 +74,13 @@ nav span {
 
 /*two stylr */
 
-.two {
+.themenu {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
     justify-content: center;
     align-items: center;
+    align-self: center;
 }
 
 .menus {
@@ -87,17 +89,20 @@ nav span {
     justify-content: center;
 }
 
-.menu {
-    padding: 10px;
-}
+
 .menu img {
     width: 300px;
     height: 200px;
+    margin: 10px 20px;
+}
+
+.menu p{
+    margin-top: 10px;
 }
 
 /*location style */
 
-.three {
+.thelocations {
     display: flex;
     flex-direction: column;
     background-image: url("../images/img-locations-background.jpg");
@@ -105,13 +110,19 @@ nav span {
     width: 1200px;
     justify-content: center;
     align-items: center;
+    align-self: center;
+}
+
+.thelocations h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .locations{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 0;
 }
 
 .location {
@@ -125,11 +136,12 @@ nav span {
     display: flex;
     flex-direction: column;
     height: 200px;
+    align-self: center;
 }
 
 /*footer*/
 footer{
     display: flex;
     text-align: left;
-    margin-left: 20px;
+    margin: 20px;
 }
